@@ -1,0 +1,100 @@
+.profilescreen {
+  height: 100vh;
+  color: white;
+}
+.profilescreen_body {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 8%;
+  max-width: 800px;
+}
+
+.profilescreen_body h1 {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 60px;
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+}
+
+.profilescreen_info {
+  display: flex;
+}
+
+.profilescreen_info img {
+  height: 100px;
+}
+
+.profilescreen_plans {
+  width: 185%;
+}
+
+.profilescreen_plans h3 {
+  font-size: 15px;
+  padding-top: 10px;
+  width: 100%;
+  border-bottom: 1px solid #282c2d;
+  padding-bottom: 10px;
+}
+
+.profilescreen_details {
+  margin-left: 20px;
+  width: 45%;
+}
+
+.profilescreen_signout {
+  padding: 10px;
+  margin-top: 5px;
+  width: 100%;
+  color: white;
+  border: none;
+  background-color: #e50914;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.profilescreen_details h2 {
+  font-size: 13px;
+  padding: 20px;
+  width: 172.5%;
+  background-color: grey;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.profilescreen_plans p {
+  margin-top: 20px;
+}
+
+.loginscreen_type {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginscreen_typedetails p {
+  font-weight: 400;
+}
+.loginscreen_typedetails p span {
+  font-weight: 700;
+}
+
+.loginscreen_type button {
+  position: relative;
+  padding: 10px;
+  margin-top: 5px;
+  width: 100px;
+  height: 40px;
+  color: white;
+  border: none;
+  background-color: #e50914;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.loginscreen_type .current_package {
+  width: 200px;
+  background-color: grey;
+}
